@@ -1,0 +1,19 @@
+@mixin breakpoint($Screen){
+    @if($Screen == bigpc){
+        @media screen and (max-width:1200px) {
+            @content
+        }
+    }@else if($Screen == pc){
+        @media screen and (max-width:992px) {
+            @content
+        }
+    }@else if($Screen == pad) {
+        @media screen and (max-width:768px) {
+            @content
+        }
+    }@else if($Screen == phone){
+        @media screen and (max-width:576px) {
+            @content
+        }
+    }
+}
