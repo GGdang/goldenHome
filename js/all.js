@@ -1,0 +1,2 @@
+"use strict";$(function(){(new WOW).init(),$(".toggle-button").on("click",function(t){t.preventDefault(),$(".menu-bar").toggleClass("menu-fadein")}),$(".btn-close").on("click",function(t){t.preventDefault(),$(".menu-bar").toggleClass("menu-fadein")}),$(".product-box li img").hover(function(){$(this).attr("src","./images/product_item_big_001.png")},function(){$(this).attr("src","./images/product_item_small_001.png")})});
+//# sourceMappingURL=all.js.map

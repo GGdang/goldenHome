@@ -1,2 +1,0 @@
-# goldenHome
-goldenHome_web
